@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ControllerInicial">
+   <children>
+      <ImageView fitHeight="721.0" fitWidth="1077.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/tela%20inicial.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoIniciar" fitHeight="56.0" fitWidth="243.0" layoutX="392.0" layoutY="544.0" onMouseClicked="#iniciar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20iniciar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoBinaria" fitHeight="59.0" fitWidth="208.0" layoutX="127.0" layoutY="380.0" onMouseClicked="#setCodificacao" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20binaria.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoManchester" fitHeight="59.0" fitWidth="208.0" layoutX="410.0" layoutY="380.0" onMouseClicked="#setCodificacao" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20manchester.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoManchesterDif" fitHeight="59.0" fitWidth="208.0" layoutX="689.0" layoutY="379.0" onMouseClicked="#setCodificacao" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20manchester%20dif.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoFechar" fitHeight="59.0" fitWidth="59.0" layoutX="942.0" layoutY="26.0" onMouseClicked="#fechar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20fechar.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
