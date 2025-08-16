@@ -4,6 +4,10 @@ Projeto acadêmico de **Redes de Computadores I**, com o objetivo de simular o f
 
 ---
 
+## 📷 Demonstração
+<img src="/img/Camada-Fisica.gif">
+
+---
 
 ## 🎯 Objetivo
 
